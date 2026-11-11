@@ -1,24 +1,21 @@
 # ⚡ Choque de Mundos: Naruto Hokage vs Goku SSJ Blue
-
 ## 📒 Descrição
-Criação de um teaser/vídeo curto de ação retratando um confronto lendário entre dois dos maiores ícones dos animes: **Naruto Uzumaki (7º Hokage)** e **Son Goku (Super Saiyajin Blue)**. O objetivo foi explorar o potencial das IAs Generativas para manter a fidelidade visual dos traços clássicos e originais dos estúdios japoneses (2D cel shading), criando uma experiência dinâmica e autêntica (*"natty"*).
-
+Criação de um teaser/vídeo curto de ação retratando um confronto épico entre dois gigantes dos animes: **Naruto Uzumaki (7º Hokage)** e **Son Goku (Super Saiyajin Blue)**. O objetivo foi testar os limites das IAs Generativas de imagem e vídeo mais recentes do mercado, analisando até que ponto a inteligência artificial consegue manter a fidelidade e consistência dos personagens (*"Natty"*) ou onde ela acaba alucinando (*"Fake Natty"*).
 ## 🤖 Tecnologias Utilizadas
-* **Google Gemini:** Estruturação criativa do projeto, ideação de roteiro e refinamento de *prompt engineering*.
-* **Microsoft Copilot (DALL-E 3):** Geração da arte conceitual principal em 2D com estética fiel aos traços originais.
-* **Canva:** Montagem final do vídeo, aplicação de efeitos de câmera (panorâmica/aproximação), transições, tipografia e trilha sonora.
-* **Ferramentas exploradas no benchmark:** Leonardo.ai, Kling AI e Luma Dream Machine (utilizadas na fase de testes para avaliar capacidades de vídeo e limitações de plataforma).
-
+* **Google Gemini:** Ideação criativa, estruturação do roteiro e engenharia de prompts.
+* **Microsoft Copilot (DALL-E 3):** Geração da arte conceitual base em 2D tradicional, respeitando traços de estúdio japonês.
+* **Adobe Firefly (Google Veo 3.1 Fast):** Animação e geração de vídeo *image-to-video* a partir da arte gerada.
+* **Canva:** Edição auxiliar, ajustes visuais e sonorização.
+* **Ferramentas exploradas para benchmark:** Leonardo.ai, Kling AI e Luma Dream Machine (testadas para mapear custos, filtros de copyright e estabilidade de movimento).
 ## 🧐 Processo de Criação
-1. **Ideação e Pivotagem:** O projeto começou com a ideia de criar uma fotografia live-action dos personagens no Brasil. Após os primeiros testes, percebi que o apelo visual e a autenticidade seriam muito mais fortes respeitando o formato clássico dos animes em 2D.
-2. **Superando Barreiras Técnicas e Copyright:** Durante os testes de geração de vídeo direto por texto no Leonardo.ai e no Kling AI, me deparei com limitações de planos gratuitos e filtros rígidos de direitos autorais (*copyright*) que bloqueavam os nomes dos personagens.
-3. **Engenharia de Prompt Refinada:** Para contornar as limitações e evitar o visual de "computação gráfica plástica" (*fake natty*), estruturei prompts focados em características clássicas de animação: line art nítida, iluminação de contraste entre auras (o azul do SSJ Blue e o ciano do Rasengan) e referências de estúdios renomados.
-4. **Pós-produção e Montagem:** Com a arte 2D de alta fidelidade gerada no Copilot, utilizei o Canva para transformar a imagem estática em um vídeo dinâmico, adicionando movimentação de câmera e ambientação sonora épica.
-
+1. **Ideação e Estilo Visual:** Comecei explorando estilos live-action, mas percebi que a identidade dos animes ficaria muito mais autêntica em 2D tradicional com iluminação contrastante entre auras azuis (o Ki do SSJ Blue e o chakra do Rasengan).
+2. **Desafios Reais de Mercado (Paywall e Copyright):** Nos primeiros testes em ferramentas de vídeo como Kling e Leonardo, esbarrei em limitações de planos pagos e filtros de direitos autorais que bloqueavam os nomes registrados dos personagens.
+3. **Geração da Imagem Base:** Para contornar os bloqueios, gerei primeiro uma imagem estática de altíssima qualidade no Copilot focando nos traços originais (Toei Animation / Studio Pierrot).
+4. **Transformando Imagem em Vídeo no Firefly:** Com a arte em mãos, utilizei a integração do **Adobe Firefly com o modelo Google Veo 3.1 Fast** para dar movimento à cena através do método *Image-to-Video*.
 ## 🚀 Resultados
-Um vídeo curto de alto impacto visual, com estética de pôster animado/teaser de filme, que preserva as identidades visuais de Naruto e Goku em suas formas mais poderosas.
-
-> 💡 *[Adicione aqui o link do seu vídeo, GIF ou print do resultado final]*
-
-## 💭 Reflexão
-O maior aprendizado deste lab foi entender que criar algo *"Natty"* (natural e convincente) com IA não é sobre aceitar o primeiro resultado de uma ferramenta mágica. O verdadeiro valor está na **orquestração de ferramentas**, na persistência em driblar filtros e limitações técnicas e na capacidade de refinar os comandos até que a IA entregue exatamente a visão criativa do autor.
+Um vídeo de ação dinâmico que captura a intensidade do embate entre os dois personagens com movimentação fluida de câmera e energia.
+> 💡 *[Insira aqui o link ou anexe o vídeo/GIF gerado no seu repositório]*
+## 💭 Reflexão (O Efeito "Fake Natty")
+O resultado demonstrou a impressionante evolução dos modelos de vídeo como o **Veo 3.1**, mas também revelou as limitações clássicas das IAs generativas de vídeo:
+* **O momento "Fake Natty":** Durante a colisão e troca de golpes, a IA sofreu uma fusão semântica de texturas e a roupa do Naruto repentinamente se transformou no gi de artes marciais do Goku!
+* **Conclusão:** Criar conteúdo convincente com IA exige aprender a conviver e contornar essas "alucinações visuais". O projeto mostrou que a chave do sucesso está na orquestração de várias ferramentas e no espírito de testar até encontrar a melhor combinação.
